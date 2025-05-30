@@ -1,0 +1,201 @@
+.navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
+}
+.marginTop-100 {
+    margin-top: 100px;
+}
+
+
+.adv-img-1 img {
+    width: 100%;
+}
+label {
+    font-size: 1.1rem;
+}
+
+/* Profile search card:s */
+.profile-search-card {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.profile-search-card.ts-box {
+    background-color: #f8f8f8;
+    -webkit-transition: background-color 10s ease;
+    -moz-transition:    background-color 10s ease;
+    -ms-transition:     background-color 10s ease;
+    -o-transition:      background-color 10s ease;
+    transition:         background-color 10s ease;
+
+
+    box-shadow: none;
+    -webkit-transition: box-shadow 1s;
+    -moz-transition:    box-shadow 1s;
+    -ms-transition:     box-shadow 1s;
+    -o-transition:      box-shadow 1s;
+    transition:         box-shadow 1s;
+
+}
+.profile-search-card.ts-box:hover {
+    background-color: #fff;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+}
+.profile-search-card .profile-img{
+    padding: 0;margin: 0;    
+}
+.profile-search-card .profile-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.profile-search-card .profile-body h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: .41rem;
+    line-height: 1.4rem;
+    
+}
+.icon-btns {
+    padding: 6px 10px;
+    box-shadow: none;
+    -webkit-transition: box-shadow 1s;
+    -moz-transition:    box-shadow 1s;
+    -ms-transition:     box-shadow 1s;
+    -o-transition:      box-shadow 1s;
+    transition:         box-shadow 1s;
+
+}
+.icon-btns:hover {
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+}
+.icon-btns i {
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+.icon-btns:hover i{
+    color: #B52D1D;
+}
+.icon-links {
+    float: right;
+}
+.adv-img-1 {
+    padding-left: 20px;
+}
+/* iPhone 6, 7, & 8 in portrait & landscape */
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 667px) { 
+  .profile-search-card{
+      margin: 10px;
+  }
+  .profile-search-card .profile-img {
+      padding: 30px;
+  }
+  .adv-img-1 {
+      padding:0;
+  }
+  .profile-search-card .profile-body h4{
+      line-height: 1.6rem;
+  }
+
+}
+/* Profile search card:e */
+
+.page-link {
+    color: #B52D1D;
+}
+.page-item.active .page-link {
+    background-color: #B52D1D;
+    border-color: #B52D1D;
+}
+
+
+/* Samaj Selection Index.html:s */
+.card.samaj-card:hover h5
+{
+    -webkit-transition: font-size 2s;
+    -moz-transition:    font-size 2s;
+    -ms-transition:     font-size 2s;
+    -o-transition:      font-size 2s;
+    transition:         font-size 2s;
+}
+.card.samaj-card h6 {
+    color: #000;
+    -webkit-transition: font-size 2s;
+    -moz-transition:    font-size 2s;
+    -ms-transition:     font-size 2s;
+    -o-transition:      font-size 2s;
+    transition:         font-size 2s;
+} 
+.card.samaj-card:hover h5 {
+    font-size: 1.4rem;
+    color: #B52D1D;
+} 
+.card.samaj-card:hover h6 {
+    font-size: 0.64rem;
+}
+
+.scrollable-with-fixed-height{
+    height: 500px;
+    overflow-y: scroll;
+}
+.scrollable-with-fixed-height::-webkit-scrollbar {
+    width: .6rem;
+}
+ 
+.scrollable-with-fixed-height::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+    border-radius: 10px;
+}
+ 
+.scrollable-with-fixed-height::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.4); 
+}
+/* Samaj Selection Index.html:e */
+
+/* Vendors table:s */
+.vendors-tablelist td{
+    padding: 6px;
+    vertical-align: top;
+}
+/* Vendors table:e */
+
+.nav{
+    border-bottom: 1px solid#B52D1D;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #B52D1D;
+}
+.nav-pills .nav-link{
+    font-size: 1.15rem;
+    border-radius: 0px;
+    border: 1px solid;
+    border-bottom: 0px;
+}
+
+
+input.form-control:focus, input.form-control:hover {
+    box-shadow: .375rem .3125rem 1.5625rem rgba(0, 0, 0, .2);
+}
+
+.alert{
+    position: fixed;
+    z-index:1400;
+    top:18%;
+    right:3%;
+    text-align:center;
+    padding: 10px 20px;
+}
+
+.maxHeight300 {
+    height: 100% !important;
+    max-height: 300px;
+}
+.imgNoRadius {
+    border-radius: unset !important;
+}
